@@ -24,7 +24,7 @@ struct ContentView: View {
                 NavigationLink(destination:
                                 Text("Wrong Try again!")) {
                     Text("Jess!")
-                        .buttonStyle(.borderedProminent).tint(.pink).controlSize(.large)
+                        .buttonStyle(.borderedProminent).tint(.blue).controlSize(.large)
                         .font(.title)
                         .fontWeight(.bold)
                         .padding(.top, 4.0)
